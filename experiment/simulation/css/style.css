@@ -1,0 +1,97 @@
+
+#score {
+  background-color: aquamarine;
+  width: 85%;
+  padding: 2%;
+  text-align: center;
+  position: absolute;
+  bottom: 3vh;
+}
+
+
+
+.all_properties_flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.table-responsive {
+  max-width: 100%;
+}
+
+#panel1_btn {
+  position: absolute;
+  bottom: 80px;
+  width: 91%;
+}
+
+#exp-title {
+  position: relative;
+  top: 10%;
+  background-color: rgb(144, 175, 233);
+  padding: 2%;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.btn-close {
+  position: relative;
+  /* background-color: rgb(229, 84, 84); */
+  left: -48%;
+  /* width: 40%; */
+}
+
+.text-color-blue {
+  color:rgb(7, 88, 125);
+  font-weight: 600;
+}
+
+.titration-img {
+  position: relative;
+  top: 3%;
+  width: 40%;
+  margin-bottom: 10%;
+}
+
+#titration-table {
+  position: absolute;
+  top: 5%;
+  right: 8%;
+  width: 50%;
+  height: 90%;
+}
+
+#titration-des {
+  position: absolute;
+  top: 5%;
+  right: 8%;
+  width: 50%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#titration-result {
+  position: absolute;
+  top: 50%;
+  right: 8%;
+  width: 50%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#loading-text{
+  position: absolute;
+  top: 50%;
+  right: 8%;
+  width: 50%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
