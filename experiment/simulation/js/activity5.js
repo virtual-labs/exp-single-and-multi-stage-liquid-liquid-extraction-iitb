@@ -28,6 +28,7 @@ var main_table = `
     </div>
     
 `;
+var formula = "$$\\frac{m}{(30*1.5)}100$$";
 var all_properties = `
 
 <div style="overflow-y: auto !important; max-height: 80%;">
@@ -51,7 +52,7 @@ var all_properties = `
         <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);">0.87</td>
       </tr>
       <tr>
-        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);" scope="row">Concentration of Titrant (N1)</td>
+        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);" scope="row">Concentration of Titrate (N)</td>
         <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);" colspan="2">1</td>
         
       </tr>
@@ -62,6 +63,18 @@ var all_properties = `
         
       </tr>
 
+      <tr>
+        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);" scope="row">Volume of Titrate, V<sub>1</sub> (ml)</td>
+        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);" colspan="2">5</td>
+        
+      </tr>
+
+      <tr>
+        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);" scope="row">Concentration of Titrant (N), N<sub>2</sub> (ml)</td>
+        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);" colspan="2">0.926</td>
+        
+      </tr>
+
     </tbody>
   </table>
 
@@ -69,10 +82,10 @@ var all_properties = `
 
   <div class="row" style="font-size: calc(0.7vw + 4px);"> 
 
-  <div class="col-12">N<sub>1</sub>V<sub>1</sub> = N<sub>2</sub>V<sub>2</sub></div>  
+  <div class="col-12">N<sub>1</sub>V<sub>1</sub> = N<sub>2</sub>V<sub>2</sub></div> 
   <div class="col-12">V<sub>s</sub> => Volume of extract layer in ml</div>
-  <div class="col-12">m (for 128 ml solution in grams) = (60 x N<sub>1</sub> x V<sub>s</sub>) / 1000</div>
-  <div class="col-12">Percent Recovery = m / (30 x 1.5) x 100</div>
+  <div class="col-12">m (for 128 ml solution in grams) = <span style="display: inline-block;"> $$\\frac{60 * N_{1} * V_{s}}{1000}$$  </span></div>
+  <div class="col-12">Percent Recovery =  <span style="display: inline-block;"> $$\\frac{m}{(30*1.5)}*100$$ </span></div>
   </div>
   </div>
 </div>
@@ -83,6 +96,7 @@ position: absolute; bottom: 12vh; width: 85%;">Properties Table</button>`;
 function activity5() {
     pp.clearleftpannel();
     pp.showdescription(all_properties, 3);
+    MathJax.typeset();
     pp.addtoleftpannel(main_table);
 }
 function act5_verify() {
