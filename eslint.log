@@ -1,0 +1,324 @@
+
+/home/runner/work/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/experiment/simulation/js/activity1.js
+    8:14   warning  'Pannel' is not defined                                no-undef
+   14:10   warning  'start_act1' is defined but never used                 no-unused-vars
+   26:10   warning  'move_to_activity3' is defined but never used          no-unused-vars
+   29:5    warning  'activity4' is not defined                             no-undef
+   38:5    warning  'global_score' is assigned a value but never used      no-unused-vars
+   39:5    warning  'a1_panel' is defined but never used                   no-unused-vars
+   40:5    warning  'all_text_content' is assigned a value but never used  no-unused-vars
+   41:5    warning  'canvas_box_scale' is already defined                  no-redeclare
+   41:5    warning  'canvas_box_scale' is assigned a value but never used  no-unused-vars
+   44:5    warning  'a1_scene' is defined but never used                   no-unused-vars
+   51:5    warning  'display_score' is defined but never used              no-unused-vars
+   52:5    warning  'timer1' is assigned a value but never used            no-unused-vars
+   67:17   warning  'Scene' is not defined                                 no-undef
+   72:27   warning  'bootstrap' is not defined                             no-undef
+  110:18   warning  'Chemistry' is not defined                             no-undef
+  110:42   warning  'beaker' is not defined                                no-undef
+  110:54   warning  'Chemistry' is not defined                             no-undef
+  113:9    warning  'sq' is already defined                                no-redeclare
+  113:18   warning  'Chemistry' is not defined                             no-undef
+  113:42   warning  'burette' is not defined                               no-undef
+  113:55   warning  'Chemistry' is not defined                             no-undef
+  116:9    warning  'sq' is already defined                                no-redeclare
+  116:18   warning  'Chemistry' is not defined                             no-undef
+  116:42   warning  'flask' is not defined                                 no-undef
+  116:53   warning  'Chemistry' is not defined                             no-undef
+  119:9    warning  'sq' is already defined                                no-redeclare
+  119:18   warning  'Chemistry' is not defined                             no-undef
+  119:42   warning  's_funnel' is not defined                              no-undef
+  119:56   warning  'Chemistry' is not defined                             no-undef
+  122:9    warning  'sq' is already defined                                no-redeclare
+  122:18   warning  'Chemistry' is not defined                             no-undef
+  122:42   warning  'stand' is not defined                                 no-undef
+  122:53   warning  'Chemistry' is not defined                             no-undef
+  150:25   warning  'Chemistry' is not defined                             no-undef
+  150:50   warning  'Chemistry' is not defined                             no-undef
+  161:10   warning  'beaker' is not defined                                no-undef
+  161:18   warning  'beaker' is not defined                                no-undef
+  162:10   warning  'burette' is not defined                               no-undef
+  162:19   warning  'burette' is not defined                               no-undef
+  163:10   warning  'flask' is not defined                                 no-undef
+  163:17   warning  'flask' is not defined                                 no-undef
+  164:10   warning  's_funnel' is not defined                              no-undef
+  164:20   warning  's_funnel' is not defined                              no-undef
+  165:10   warning  'stand' is not defined                                 no-undef
+  165:17   warning  'stand' is not defined                                 no-undef
+  168:13   warning  'Chemistry' is not defined                             no-undef
+  168:42   warning  'Chemistry' is not defined                             no-undef
+  169:13   warning  'Chemistry' is not defined                             no-undef
+  169:43   warning  'Chemistry' is not defined                             no-undef
+  170:13   warning  'Chemistry' is not defined                             no-undef
+  170:41   warning  'Chemistry' is not defined                             no-undef
+  171:13   warning  'Chemistry' is not defined                             no-undef
+  171:44   warning  'Chemistry' is not defined                             no-undef
+  172:13   warning  'Chemistry' is not defined                             no-undef
+  172:41   warning  'Chemistry' is not defined                             no-undef
+  177:12   warning  Unexpected constant condition                          no-constant-condition
+  199:49   warning  'Chemistry' is not defined                             no-undef
+  202:39   warning  'bootstrap' is not defined                             no-undef
+  234:30   warning  'Chemistry' is not defined                             no-undef
+  234:73   warning  'Chemistry' is not defined                             no-undef
+  262:13   warning  'bsOffcanvas' is already defined                       no-redeclare
+  262:31   warning  'bootstrap' is not defined                             no-undef
+  264:30   warning  'Chemistry' is not defined                             no-undef
+  264:118  warning  'Chemistry' is not defined                             no-undef
+  307:24   warning  'activity4' is not defined                             no-undef
+
+/home/runner/work/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/experiment/simulation/js/activity3.js
+   1:5   warning  'obtable_verified' is assigned a value but never used  no-unused-vars
+  11:5   warning  'pp' is not defined                                    no-undef
+  13:5   warning  'pp' is not defined                                    no-undef
+  14:5   warning  'pp' is not defined                                    no-undef
+  15:5   warning  'pp' is not defined                                    no-undef
+  47:5   warning  'pp' is not defined                                    no-undef
+  49:10  warning  'act3_verify_obtable' is defined but never used        no-unused-vars
+  56:10  warning  'verify_values' is not defined                         no-undef
+  60:10  warning  'verify_values' is not defined                         no-undef
+  64:10  warning  'verify_values' is not defined                         no-undef
+  68:10  warning  'verify_values' is not defined                         no-undef
+  72:10  warning  'verify_values' is not defined                         no-undef
+  77:5   warning  'pp' is not defined                                    no-undef
+  78:27  warning  'bootstrap' is not defined                             no-undef
+
+/home/runner/work/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/experiment/simulation/js/activity4.js
+    1:5   warning  'v2' is assigned a value but never used               no-unused-vars
+    2:5   warning  'v1' is assigned a value but never used               no-unused-vars
+    3:5   warning  'N2' is assigned a value but never used               no-unused-vars
+    4:5   warning  'rho_acetic_acid' is assigned a value but never used  no-unused-vars
+    5:5   warning  'rho_benzene' is assigned a value but never used      no-unused-vars
+    6:5   warning  'N1' is assigned a value but never used               no-unused-vars
+    7:5   warning  'vs' is assigned a value but never used               no-unused-vars
+    8:5   warning  'dropdown_table' is assigned a value but never used   no-unused-vars
+   43:5   warning  'act4_btn' is assigned a value but never used         no-unused-vars
+   68:10  warning  'activity4' is defined but never used                 no-unused-vars
+   69:5   warning  'pp' is not defined                                   no-undef
+   70:5   warning  'pp' is not defined                                   no-undef
+   74:5   warning  'pp' is not defined                                   no-undef
+   75:5   warning  'pp' is not defined                                   no-undef
+   76:5   warning  'pp' is not defined                                   no-undef
+   78:5   warning  'pp' is not defined                                   no-undef
+   81:5   warning  'pp' is not defined                                   no-undef
+   82:5   warning  'pp' is not defined                                   no-undef
+   91:10  warning  'load_dropdowns' is defined but never used            no-unused-vars
+   92:5   warning  'pp' is not defined                                   no-undef
+   94:5   warning  'pp' is not defined                                   no-undef
+   95:5   warning  'pp' is not defined                                   no-undef
+  105:10  warning  'perform' is defined but never used                   no-unused-vars
+  106:9   warning  'image' is assigned a value but never used            no-unused-vars
+  108:5   warning  'add_loading_text' is not defined                     no-undef
+  112:9   warning  'remove_loading_text' is not defined                  no-undef
+  113:9   warning  'add_loading_text' is not defined                     no-undef
+  116:13  warning  'remove_loading_text' is not defined                  no-undef
+  117:13  warning  'add_loading_text' is not defined                     no-undef
+  121:17  warning  'remove_loading_text' is not defined                  no-undef
+  122:17  warning  'add_loading_text' is not defined                     no-undef
+  126:21  warning  'remove_loading_text' is not defined                  no-undef
+  127:21  warning  'pp' is not defined                                   no-undef
+  129:21  warning  'pp' is not defined                                   no-undef
+  130:21  warning  'pp' is not defined                                   no-undef
+
+/home/runner/work/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/experiment/simulation/js/activity5.js
+   18:13  warning  'main_table_data' is not defined              no-undef
+   19:13  warning  'main_table_data' is not defined              no-undef
+   20:13  warning  'main_table_data' is not defined              no-undef
+   31:5   warning  'formula' is assigned a value but never used  no-unused-vars
+   96:10  warning  'activity5' is defined but never used         no-unused-vars
+   97:5   warning  'pp' is not defined                           no-undef
+   98:5   warning  'pp' is not defined                           no-undef
+   99:5   warning  'MathJax' is not defined                      no-undef
+  100:5   warning  'pp' is not defined                           no-undef
+  102:10  warning  'act5_verify' is defined but never used       no-unused-vars
+  107:10  warning  'verify_values' is not defined                no-undef
+  107:48  warning  'main_table_data' is not defined              no-undef
+  111:10  warning  'verify_values' is not defined                no-undef
+  111:48  warning  'main_table_data' is not defined              no-undef
+  115:5   warning  'pp' is not defined                           no-undef
+  116:27  warning  'bootstrap' is not defined                    no-undef
+  119:10  warning  'act5_load_table' is defined but never used   no-unused-vars
+  120:5   warning  'vs' is not defined                           no-undef
+  122:5   warning  'pp' is not defined                           no-undef
+  123:5   warning  'pp' is not defined                           no-undef
+  133:13  warning  'main_table_data' is not defined              no-undef
+  134:13  warning  'main_table_data' is not defined              no-undef
+  135:13  warning  'main_table_data' is not defined              no-undef
+  136:13  warning  'main_table_data' is not defined              no-undef
+  137:13  warning  'main_table_data' is not defined              no-undef
+  141:17  warning  'main_table_data' is not defined              no-undef
+  144:5   warning  'pp' is not defined                           no-undef
+
+/home/runner/work/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/experiment/simulation/js/common.js
+   1:10  warning  'verify_values' is defined but never used        no-unused-vars
+  17:10  warning  'std_deviation' is defined but never used        no-unused-vars
+  22:10  warning  'regression_linear' is defined but never used    no-unused-vars
+  39:10  warning  'add_loading_text' is defined but never used     no-unused-vars
+  41:5   warning  'pp' is not defined                              no-undef
+  43:10  warning  'remove_loading_text' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/experiment/simulation/js/data.js
+  1:5  warning  'table_1' is assigned a value but never used          no-unused-vars
+  9:5  warning  'main_table_data' is assigned a value but never used  no-unused-vars
+
+/home/runner/work/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/experiment/simulation/js/dummy.js
+  2:14  warning  'Pannel' is not defined  no-undef
+
+/home/runner/work/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/experiment/simulation/js/geomerty.js
+   33:49   warning  'lscale' is not defined          no-undef
+   34:49   warning  'lscale' is not defined          no-undef
+   46:23   warning  'pt1' is defined but never used  no-unused-vars
+   46:28   warning  'pt2' is defined but never used  no-unused-vars
+   46:33   warning  'pt3' is defined but never used  no-unused-vars
+   50:24   warning  'geo' is defined but never used  no-unused-vars
+   69:44   warning  'lscale' is not defined          no-undef
+   69:66   warning  'lscale' is not defined          no-undef
+   69:88   warning  'lscale' is not defined          no-undef
+   82:48   warning  'lscale' is not defined          no-undef
+   83:48   warning  'lscale' is not defined          no-undef
+  108:47   warning  'lscale' is not defined          no-undef
+  108:69   warning  'lscale' is not defined          no-undef
+  109:60   warning  'lscale' is not defined          no-undef
+  109:95   warning  'lscale' is not defined          no-undef
+  131:39   warning  'lscale' is not defined          no-undef
+  131:57   warning  'lscale' is not defined          no-undef
+  132:39   warning  'lscale' is not defined          no-undef
+  132:57   warning  'lscale' is not defined          no-undef
+  181:39   warning  'lscale' is not defined          no-undef
+  181:57   warning  'lscale' is not defined          no-undef
+  182:39   warning  'lscale' is not defined          no-undef
+  182:57   warning  'lscale' is not defined          no-undef
+  225:33   warning  'lscale' is not defined          no-undef
+  226:33   warning  'lscale' is not defined          no-undef
+  274:50   warning  'lscale' is not defined          no-undef
+  274:72   warning  'lscale' is not defined          no-undef
+  279:61   warning  'lscale' is not defined          no-undef
+  279:84   warning  'lscale' is not defined          no-undef
+  279:102  warning  'lscale' is not defined          no-undef
+  279:120  warning  'lscale' is not defined          no-undef
+  293:33   warning  'lscale' is not defined          no-undef
+  294:33   warning  'lscale' is not defined          no-undef
+  295:41   warning  'lscale' is not defined          no-undef
+  295:64   warning  'lscale' is not defined          no-undef
+  295:98   warning  'lscale' is not defined          no-undef
+  295:121  warning  'lscale' is not defined          no-undef
+  296:45   warning  'lscale' is not defined          no-undef
+  296:68   warning  'lscale' is not defined          no-undef
+  296:102  warning  'lscale' is not defined          no-undef
+  296:125  warning  'lscale' is not defined          no-undef
+  323:61   warning  'lscale' is not defined          no-undef
+  323:90   warning  'lscale' is not defined          no-undef
+  324:61   warning  'lscale' is not defined          no-undef
+  324:96   warning  'lscale' is not defined          no-undef
+  325:66   warning  'lscale' is not defined          no-undef
+  325:101  warning  'lscale' is not defined          no-undef
+  326:66   warning  'lscale' is not defined          no-undef
+  326:100  warning  'lscale' is not defined          no-undef
+  327:67   warning  'lscale' is not defined          no-undef
+  327:101  warning  'lscale' is not defined          no-undef
+  328:67   warning  'lscale' is not defined          no-undef
+  328:96   warning  'lscale' is not defined          no-undef
+  329:61   warning  'lscale' is not defined          no-undef
+  329:90   warning  'lscale' is not defined          no-undef
+  346:33   warning  'lscale' is not defined          no-undef
+  347:33   warning  'lscale' is not defined          no-undef
+  376:46   warning  'lscale' is not defined          no-undef
+  382:50   warning  'lscale' is not defined          no-undef
+  382:72   warning  'lscale' is not defined          no-undef
+  411:52   warning  'lscale' is not defined          no-undef
+  411:79   warning  'lscale' is not defined          no-undef
+  413:56   warning  'lscale' is not defined          no-undef
+  413:83   warning  'lscale' is not defined          no-undef
+  450:50   warning  'lscale' is not defined          no-undef
+  450:72   warning  'lscale' is not defined          no-undef
+  456:61   warning  'lscale' is not defined          no-undef
+  456:84   warning  'lscale' is not defined          no-undef
+  456:102  warning  'lscale' is not defined          no-undef
+  456:120  warning  'lscale' is not defined          no-undef
+  470:33   warning  'lscale' is not defined          no-undef
+  471:33   warning  'lscale' is not defined          no-undef
+  472:41   warning  'lscale' is not defined          no-undef
+  472:64   warning  'lscale' is not defined          no-undef
+  472:98   warning  'lscale' is not defined          no-undef
+  472:121  warning  'lscale' is not defined          no-undef
+  473:45   warning  'lscale' is not defined          no-undef
+  473:68   warning  'lscale' is not defined          no-undef
+  473:102  warning  'lscale' is not defined          no-undef
+  473:125  warning  'lscale' is not defined          no-undef
+  502:50   warning  'lscale' is not defined          no-undef
+  502:72   warning  'lscale' is not defined          no-undef
+  507:139  warning  'lscale' is not defined          no-undef
+  507:172  warning  'lscale' is not defined          no-undef
+  507:205  warning  'lscale' is not defined          no-undef
+  507:225  warning  'lscale' is not defined          no-undef
+  528:50   warning  'lscale' is not defined          no-undef
+  528:72   warning  'lscale' is not defined          no-undef
+  533:139  warning  'lscale' is not defined          no-undef
+  533:172  warning  'lscale' is not defined          no-undef
+  533:205  warning  'lscale' is not defined          no-undef
+  533:225  warning  'lscale' is not defined          no-undef
+  555:50   warning  'lscale' is not defined          no-undef
+  555:72   warning  'lscale' is not defined          no-undef
+  560:133  warning  'lscale' is not defined          no-undef
+  560:172  warning  'lscale' is not defined          no-undef
+  560:205  warning  'lscale' is not defined          no-undef
+  560:224  warning  'lscale' is not defined          no-undef
+  584:39   warning  'lscale' is not defined          no-undef
+  584:53   warning  'lscale' is not defined          no-undef
+  585:39   warning  'lscale' is not defined          no-undef
+  585:53   warning  'lscale' is not defined          no-undef
+  586:39   warning  'lscale' is not defined          no-undef
+  586:53   warning  'lscale' is not defined          no-undef
+  587:39   warning  'lscale' is not defined          no-undef
+  587:53   warning  'lscale' is not defined          no-undef
+  594:36   warning  'lscale' is not defined          no-undef
+  594:50   warning  'lscale' is not defined          no-undef
+  594:63   warning  'lscale' is not defined          no-undef
+  605:36   warning  'lscale' is not defined          no-undef
+  605:50   warning  'lscale' is not defined          no-undef
+  605:63   warning  'lscale' is not defined          no-undef
+  632:46   warning  'lscale' is not defined          no-undef
+  637:50   warning  'lscale' is not defined          no-undef
+  637:72   warning  'lscale' is not defined          no-undef
+  659:50   warning  'lscale' is not defined          no-undef
+  659:72   warning  'lscale' is not defined          no-undef
+  663:46   warning  'lscale' is not defined          no-undef
+  664:46   warning  'lscale' is not defined          no-undef
+  664:67   warning  'lscale' is not defined          no-undef
+  665:49   warning  'lscale' is not defined          no-undef
+  702:50   warning  'lscale' is not defined          no-undef
+  702:72   warning  'lscale' is not defined          no-undef
+  718:38   warning  'lscale' is not defined          no-undef
+  718:51   warning  'lscale' is not defined          no-undef
+  720:38   warning  'lscale' is not defined          no-undef
+  722:38   warning  'lscale' is not defined          no-undef
+  722:52   warning  'lscale' is not defined          no-undef
+
+/home/runner/work/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/experiment/simulation/js/pannel.js
+  8:7  warning  'Pannel' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/experiment/simulation/js/scene.js
+   1:7    warning  'Scene' is defined but never used         no-unused-vars
+  11:9    warning  'context' is not defined                  no-undef
+  11:33   warning  'canvas' is not defined                   no-undef
+  11:47   warning  'canvas' is not defined                   no-undef
+  27:5    warning  'context' is not defined                  no-undef
+  28:9    warning  'grd' is assigned a value but never used  no-unused-vars
+  28:15   warning  'context' is not defined                  no-undef
+  28:44   warning  'canvas' is not defined                   no-undef
+  28:62   warning  'canvas' is not defined                   no-undef
+  28:84   warning  'canvas' is not defined                   no-undef
+  28:102  warning  'canvas' is not defined                   no-undef
+  28:121  warning  'canvas' is not defined                   no-undef
+  36:5    warning  'context' is not defined                  no-undef
+  37:5    warning  'context' is not defined                  no-undef
+  37:28   warning  'canvas' is not defined                   no-undef
+  37:42   warning  'canvas' is not defined                   no-undef
+  38:5    warning  'context' is not defined                  no-undef
+  39:5    warning  'context' is not defined                  no-undef
+
+/home/runner/work/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/exp-single-and-multi-stage-liquid-liquid-extraction-iitb/experiment/simulation/js/test.js
+  2:14  warning  'Pannel' is not defined                     no-undef
+  4:5   warning  'table' is assigned a value but never used  no-unused-vars
+
+✖ 299 problems (0 errors, 299 warnings)
+
