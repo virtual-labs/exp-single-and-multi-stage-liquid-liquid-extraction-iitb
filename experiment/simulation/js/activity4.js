@@ -72,7 +72,7 @@ function activity4() {
     // pp.addtoleftpannel(button);
     // pp.addtoleftpannel(button);
     pp.addoffcanvas(3);
-    pp.showtitle("Perform Titration", 3);
+    pp.showtitle(`<p id="exp-title">Perform Titration</p>`, 3);
     pp.showdescription('<p style="background-color: #f4ccccff; border-radius: 10px; border: black; padding: 5%; font-weight: 500; font-size: 2.5vw;">Click Next button to Start Titration</p>', 3);
     // document.getElementById('hide_panel3').click();
     pp.showscore(200, 3);

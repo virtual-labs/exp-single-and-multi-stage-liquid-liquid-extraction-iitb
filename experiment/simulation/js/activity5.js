@@ -35,50 +35,48 @@ var all_properties = `
 <table class="table" style="height: 30% !important;">
     <thead>
       <tr>
-        <th style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);;" scope="col">Properties</th>
-        <th style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);;" scope="col">values</th>
+        <th style="padding: 2% 2% !important; font-size: calc(0.7vw + 3px);;" scope="col">Properties</th>
+        <th style="padding: 2% 2% !important; font-size: calc(0.7vw + 3px);;" scope="col">values</th>
        
       </tr>
 
     </thead>
     <tbody>
       <tr>
-        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);" scope="row">Density of Acetic Acid (gm/cc)</td>
-        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);">1.05</td>
+        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 3px);" scope="row">Density of Acetic Acid (gm/cc)</td>
+        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 3px);">1.05</td>
         
       </tr>
       <tr>
-        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);" scope="row">Density of benzene (gm/cc)</td>
-        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);">0.87</td>
+        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 3px);" scope="row">Density of benzene (gm/cc)</td>
+        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 3px);">0.87</td>
       </tr>
       <tr>
-        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);" scope="row">Concentration of Titrate (N)</td>
-        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);" colspan="2">1</td>
-        
-      </tr>
-
-      <tr>
-        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);" scope="row">Volume of Titrant, V<sub>2</sub> (ml)</td>
-        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);" colspan="2">19.4</td>
+        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 3px);" scope="row">Concentration of Titrate (N)</td>
+        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 3px);" colspan="2">1</td>
         
       </tr>
 
       <tr>
-        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);" scope="row">Volume of Titrate, V<sub>1</sub> (ml)</td>
-        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);" colspan="2">5</td>
+        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 3px);" scope="row">Volume of Titrant, V<sub>2</sub> (ml)</td>
+        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 3px);" colspan="2">19.4</td>
         
       </tr>
 
       <tr>
-        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);" scope="row">Concentration of Titrant (N), N<sub>2</sub> (ml)</td>
-        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 0.7px);" colspan="2">0.926</td>
+        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 3px);" scope="row">Volume of Titrate, V<sub>1</sub> (ml)</td>
+        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 3px);" colspan="2">5</td>
+        
+      </tr>
+
+      <tr>
+        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 3px);" scope="row">Concentration of Titrant (N), N<sub>2</sub> (ml)</td>
+        <td style="padding: 2% 2% !important; font-size: calc(0.7vw + 3px);" colspan="2">0.926</td>
         
       </tr>
 
     </tbody>
   </table>
-
-  <br>
 
   <div class="row" style="font-size: calc(0.7vw + 4px);"> 
 
@@ -91,8 +89,8 @@ var all_properties = `
 </div>
 
 `;
-var act5_complete_table = `<button id="panel1_btn" class="btn btn-primary" onclick="act5_load_table();" style="
-position: absolute; bottom: 12vh; width: 85%;">Properties Table</button>`;
+var act5_complete_table = `<button class="btn btn-primary" onclick="act5_load_table();" style="
+width: 90%;">Properties Table</button>`;
 function activity5() {
     pp.clearleftpannel();
     pp.showdescription(all_properties, 3);
@@ -102,7 +100,8 @@ function activity5() {
 function act5_verify() {
     let val1 = document.getElementById("inp-1");
     let val2 = document.getElementById("inp-2");
-    console.log(parseFloat(val1.value));
+    console.log(main_table_data[0][3]);
+    console.log(main_table_data[0][4]);
     // console.log(Q.value, To.value, Ti.value, ti.value, to.value);
     if (!verify_values(parseFloat(val1.value), main_table_data[0][3])) {
         alert("Calculate Amount of Solute Extrated again");
