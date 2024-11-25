@@ -165,12 +165,13 @@ function load_higlighted_images() {
         [stand, stand],
     ];
     a1_labels = [
-        new Chemistry.Text("beaker", new Chemistry.Point(600, 150), canvas),
-        new Chemistry.Text("burette", new Chemistry.Point(1450, 150), canvas),
-        new Chemistry.Text("flask", new Chemistry.Point(1650, 150), canvas),
-        new Chemistry.Text("s_funnel", new Chemistry.Point(1000, 150), canvas),
-        new Chemistry.Text("stand", new Chemistry.Point(250, 150), canvas),
+        new Chemistry.Text("Beaker", new Chemistry.Point(600, 230), canvas),
+        new Chemistry.Text("Burette", new Chemistry.Point(1450, 150), canvas),
+        new Chemistry.Text("Flask", new Chemistry.Point(1650, 450), canvas),
+        new Chemistry.Text("Separatory funnel", new Chemistry.Point(1000, 250), canvas),
+        new Chemistry.Text("Stand", new Chemistry.Point(250, 150), canvas),
     ];
+    a1_labels.map(label => label.font = '22px Arial');
 }
 function a1_random_questions() {
     arrayofrandquestion = [];
