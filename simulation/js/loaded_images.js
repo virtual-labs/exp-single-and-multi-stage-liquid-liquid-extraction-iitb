@@ -1,0 +1,31 @@
+// webp individual images
+var burette = new Image();
+burette.src = './images/Burette.webp';
+var beaker = new Image();
+beaker.src = './images/Beaker.webp';
+var flask = new Image();
+flask.src = './images/Flask.webp';
+var pipette = new Image();
+pipette.src = './images/pipette.webp';
+var s_funnel = new Image();
+s_funnel.src = './images/Separatory_Funnel.webp';
+var stand = new Image();
+stand.src = './images/Stand.webp';
+//highlighted images
+var beaker_r = new Image();
+beaker_r.src = 'images/Highlighted/Beaker_Highlight02.webp';
+var beaker_w = new Image();
+beaker_w.src = 'images/Highlighted/Beaker_Highlight01.webp';
+var burette_r = new Image();
+burette_r.src = 'images/Highlighted/Burette_Highlight02.webp';
+var burette_w = new Image();
+burette_w.src = 'images/Highlighted/Burette_Highlight01.webp';
+var flask_r = new Image();
+flask_r.src = 'images/Highlighted/Flask_Highlight02.webp';
+var flask_w = new Image();
+flask_w.src = 'images/Highlighted/Flask_Highlight01.webp';
+var stand_r = new Image();
+stand_r.src = 'images/Highlighted/Stand_Highlight02.webp';
+var stand_w = new Image();
+stand_w.src = 'images/Highlighted/Stand_Highlight01.webp';
+//# sourceMappingURL=loaded_images.js.map
